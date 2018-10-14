@@ -1,0 +1,24 @@
+@font-face {
+    font-family: RussianClassic;
+    src: url('/assets/font/RussianLand.ttf');
+}
+
+@font-face {
+    font-family: ButlerLight;
+    src: url('/assets/font/Butler_Light_Stencil.otf');
+}
+
+@font-face {
+    font-family: ButlerMedium;
+    src: url('/assets/font/Butler_Medium_Stencil.otf');
+}
+
+@font-face {
+    font-family: ButlerRegular;
+    src: url('/assets/font/Butler_Regular_Stencil.otf');
+}
+
+@font-face {
+    font-family: ButlerUltraLight;
+    src: url('/assets/font/Butler_Ultra_Light_Stencil.otf');
+}
