@@ -1,0 +1,1 @@
+{"C:\\Users\\Lupin\\Documents\\sample-pizzaorder\\gulpfile.js":{"sha1":"26c808f4dfdd5073682be3c072ddefe2d97c1e14","tasks":{"serve":{"name":"serve","dependencies":"sass"},"sass":{"name":"sass","dependencies":""},"default":{"name":"default","dependencies":"serve"},"connect":{"name":"connect","dependencies":""},"connect-sync":{"name":"connect-sync","dependencies":""}}}}
