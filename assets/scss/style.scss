@@ -18,7 +18,8 @@ body {
 
 /* HOME */
 .sample-greeting {
-	margin: 2em;
+	margin: 2em auto;
+	width: 960px;
 	.sample-greeting-wrapper {
 		border: 1px solid #d3d3d3;
 		padding: 1em;
@@ -42,7 +43,8 @@ body {
 }
 
 .sample-contact {
-	margin: 1em;
+	margin: 2em auto;
+	width: 960px;
 	padding: 1em;
 	border: 1px solid #d3d3d3;
 	background-color: #ddd;
@@ -52,6 +54,27 @@ body {
 			color: #fff $imp;
 			padding: .5em 2em;
 		}
+	}
+}
+/* END */
+
+/* LOCATION */
+.sample-location {
+	text-align: center;
+	margin: 2em auto;
+	width: 960px;
+	h2 {
+		font-size: 30px;
+		font-family: 'ButlerMedium', sans-serif $imp;
+	}
+	p {
+		font-family: 'ButlerLight', sans-serif $imp;
+	}
+	iframe {
+		width: 100%;
+		margin: 2em auto;
+    	padding: 2em;
+
 	}
 }
 /* END */
