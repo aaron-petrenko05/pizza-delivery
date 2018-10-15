@@ -4,7 +4,7 @@
 <title>Sample Pizza Ordering System</title>
 <link rel="stylesheet" href="/assets/css/style.css" />
 <link rel="stylesheet" href="/assets/css/bootstrap/bootstrap.min.css" />
-<link rel="stylesheet" href="/assets/css/fontawesome/fontawesome.css" />
+<link rel="stylesheet" href="/assets/css/fontawesome/fontawesome.min.css" />
 <script type="text/javascript" src="/assets/js/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script type="text/javascript" src="/assets/js/bootstrap/bootstrap.min.js"></script>
@@ -27,7 +27,7 @@
 		  <div class="collapse navbar-collapse" id="collapsibleNavbar">
 		    <ul class="navbar-nav">
 		      <li class="nav-item">
-		        <a class="nav-link active" href="#" id="showHome"><i class="fa fa-home"></i>Home</a>
+		        <a class="nav-link" href="#" id="showHome"><i class="fa fa-home"></i>Home</a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#" id="showPizza">Pizza</a>
@@ -188,6 +188,110 @@
 		    </div>
 		</div>
 
+	</section>
+	<section id="pizza-order">
+		
+	</section>
+	<section id="location">
+		<div class="sample-location">
+			<h2>Where are we?</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d456.33897067373016!2d30.312781098492998!3d59.93422283360882!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1539580586711" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+
+		<div class="sample-contact">
+
+	    <!--Section heading-->
+		    <h2 class="h1-responsive font-weight-bold text-center my-5">Contact us</h2>
+		    <!--Section description-->
+		    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+		        matter of hours to help you.</p>
+
+		    <div class="row">
+
+		        <!--Grid column-->
+		        <div class="col-md-9 mb-md-0 mb-5">
+		            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+		                <!--Grid row-->
+		                <div class="row">
+
+		                    <!--Grid column-->
+		                    <div class="col-md-6">
+		                        <div class="md-form mb-0">
+		                            <input type="text" id="name" name="name" class="form-control">
+		                            <label for="name" class="">Your name</label>
+		                        </div>
+		                    </div>
+		                    <!--Grid column-->
+
+		                    <!--Grid column-->
+		                    <div class="col-md-6">
+		                        <div class="md-form mb-0">
+		                            <input type="text" id="email" name="email" class="form-control">
+		                            <label for="email" class="">Your email</label>
+		                        </div>
+		                    </div>
+		                    <!--Grid column-->
+
+		                </div>
+		                <!--Grid row-->
+
+		                <!--Grid row-->
+		                <div class="row">
+		                    <div class="col-md-12">
+		                        <div class="md-form mb-0">
+		                            <input type="text" id="subject" name="subject" class="form-control">
+		                            <label for="subject" class="">Subject</label>
+		                        </div>
+		                    </div>
+		                </div>
+		                <!--Grid row-->
+
+		                <!--Grid row-->
+		                <div class="row">
+
+		                    <!--Grid column-->
+		                    <div class="col-md-12">
+
+		                        <div class="md-form">
+		                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+		                            <label for="message">Your message</label>
+		                        </div>
+
+		                    </div>
+		                </div>
+		                <!--Grid row-->
+
+		            </form>
+
+		            <div class="text-center text-md-right">
+		                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+		            </div>
+		            <div class="status"></div>
+		        </div>
+		        <!--Grid column-->
+
+		        <!--Grid column-->
+		        <div class="col-md-3 text-center">
+		            <ul class="list-unstyled mb-0">
+		                <li><i class="fa fa-map-marker fa-2x"></i>
+		                    <p>San Francisco, CA 94126, USA</p>
+		                </li>
+
+		                <li><i class="fa fa-phone mt-4 fa-2x"></i>
+		                    <p>+ 01 234 567 89</p>
+		                </li>
+
+		                <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+		                    <p>contact@mdbootstrap.com</p>
+		                </li>
+		            </ul>
+		        </div>
+		        <!--Grid column-->
+
+		    </div>
+		</div>
 	</section>
 	<footer>
 		<div class="copyright">Copyright &copy; 2018 | AaronTheFirst</div>
